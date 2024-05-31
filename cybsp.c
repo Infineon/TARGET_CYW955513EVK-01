@@ -30,7 +30,6 @@
 #include "cyhal_hwmgr.h"
 #include "cyhal_syspm.h"
 #endif
-#include "wiced_memory.h"
 
 #ifndef CY_CFG_PWR_VDDA_MV
     #define CY_CFG_PWR_VDDA_MV              (3300)
@@ -39,12 +38,6 @@
 #if defined(__cplusplus)
 extern "C" {
 #endif
-
-#ifndef _CYBSP_DEFAULT_HEAP_SIZE
-#define _CYBSP_DEFAULT_HEAP_SIZE            (65536)
-#endif
-
-wiced_bt_heap_t* default_heap;
 
 //--------------------------------------------------------------------------------------------------
 // cybsp_init
@@ -72,16 +65,12 @@ cy_rslt_t cybsp_init(void)
     cy_rslt_t result = CY_RSLT_SUCCESS;
     #endif // if defined(CY_USING_HAL)
 
+    cycfg_config_init();
+    cycfg_config_reservations();
+
     #if defined(CYBSP_CUSTOM_SYSCLK_PM_CALLBACK)
     result = cybsp_register_custom_sysclk_pm_callback();
     #endif // No default syspm callback on this device
-
-    if (CY_RSLT_SUCCESS == result)
-    {
-        // Set up the default application heap for malloc and free operations
-        default_heap = wiced_bt_create_heap("default_heap", NULL, _CYBSP_DEFAULT_HEAP_SIZE, NULL,
-                                            true);
-    }
 
     return result;
 }

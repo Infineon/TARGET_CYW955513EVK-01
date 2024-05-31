@@ -12,18 +12,19 @@ The CYW955513EVK-01 library includes the following:
 * API documentation
 
 ### What Changed?
-#### v0.5.0
-* Initial pre-production release.
+#### v1.0.0
+* Initial release.
 
 ### Supported Software and Tools
 This version of the CYW955513EVK-01 BSP was validated for compatibility with the following Software and Tools:
 
 | Software and Tools                        | Version |
 | :---                                      | :----:  |
-| ModusToolbox™ Software Environment        | 3.0.0   |
-| GCC Compiler                              | 10.3.1  |
+| ModusToolbox™ Software Environment        | 3.1.0   |
+| GCC Compiler                              | 11.3.1  |
+| ARM Compiler                              | 6.16    |
 
-Minimum required ModusToolbox™ Software Environment: v3.0.0
+Minimum required ModusToolbox™ Software Environment: v3.1.0
 
 ### More information
 * [CYW955513EVK-01 BSP API Reference Manual][api]

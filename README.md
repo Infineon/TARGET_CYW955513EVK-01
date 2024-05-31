@@ -20,11 +20,13 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 
 ### Kit Contents:
 
-* CYW55513 evaluation board
+* CYW55513 Evaluation Board (CYW9CPM2BASE1 + CYW955513SDCM2WILPA)
+* Audio shield board(CYW9BTAUDIO5)
 * M.2 to FFC adapter board
 * 30-pin FFC cable 
 * USB Type-C to Type-C cable
 * Six jumper wires (5 inches each)
+* Laird Triband PCB Antenna (2 Qty)
 * Quick Start Guide
 
 ## BSP Configuration
