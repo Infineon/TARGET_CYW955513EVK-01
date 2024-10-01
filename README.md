@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Infineon AIROC™ Wi-Fi & Bluetooth® combo evaluation kit (CYW955513EVK-01) enables evaluation, prototyping, and development of a wide array of IoT applications using the AIROC™ CYW55513, a low power and high performance combo chip. 
+The Infineon AIROC™ Bluetooth® embedded mode evaluation kit (CYW955513EVK-01) enables evaluation, prototyping, and development of a wide array of IoT applications using the AIROC™ CYW55513, a low power and high performance chip. This kit should is for evaluating Bluetooth® embedded mode applications on CYW55513 only. 
 
 ![](docs/html/board.png)
 

@@ -44,7 +44,9 @@ extern "C" {
 #define CY_CFG_PWR_MODE_SLEEP           (0x01UL)
 #define CY_CFG_PWR_MODE_DEEPSLEEP       (0x02UL)
 /* M2M for WHD needs high-speed clock */
+#ifndef CY_CFG_PWR_SYS_IDLE_MODE
 #define CY_CFG_PWR_SYS_IDLE_MODE        (CY_CFG_PWR_MODE_ACTIVE)
+#endif
 #define CY_CFG_PWR_DEEPSLEEP_LATENCY    (0UL)
 /** \endcond */
 

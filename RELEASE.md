@@ -1,5 +1,5 @@
 # CYW955513EVK-01 BSP Release Notes
-The Infineon AIROC™ Wi-Fi & Bluetooth® combo evaluation kit (CYW955513EVK-01) enables evaluation, prototyping, and development of a wide array of IoT applications using the AIROC™ CYW55513, a low power and high performance combo chip. 
+The Infineon AIROC™ Bluetooth® embedded mode evaluation kit (CYW955513EVK-01) enables evaluation, prototyping, and development of a wide array of IoT applications using the AIROC™ CYW55513, a low power and high performance chip. This kit should is for evaluating Bluetooth® embedded mode applications on CYW55513 only. 
 
 NOTE: BSPs are versioned by family. This means that version 1.2.0 of any BSP in a family (eg: PSoC™ 6) will have the same software maturity level. However, not all updates are necessarily applicable for each BSP in the family so not all version numbers will exist for each board. Additionally, new BSPs may not start at version 1.0.0. In the event of adding a common feature across all BSPs, the libraries are assigned the same version number. For example if BSP_A is at v1.3.0 and BSP_B is at v1.2.0, the event will trigger a version update to v1.4.0 for both BSP_A and BSP_B. This allows the common feature to be tracked in a consistent way.
 
